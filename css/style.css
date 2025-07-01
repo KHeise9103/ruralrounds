@@ -75,3 +75,33 @@ footer {
   padding: 1rem 2rem;
   margin-top: 2rem;
 }
+
+.forum-thread {
+  background: white;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid #1b4332;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.forum-thread h3 {
+  margin-top: 0;
+  color: #1b4332;
+}
+.forum-thread ul {
+  padding-left: 1rem;
+}
+.forum-thread li {
+  margin-bottom: 0.5rem;
+}
+.new-topic {
+  background-color: #f0fdf4;
+  border-left-color: #2f855a;
+}
+
+footer p {
+  margin: 0.25rem 0;
+}
+footer p:last-child {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
