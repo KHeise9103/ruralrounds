@@ -64,10 +64,11 @@ nav a {
   margin: auto;
 }
 section {
-  padding: 3rem 2rem;
+  padding: .75rem 2rem; /* reduced top/bottom padding */
   max-width: 1000px;
   margin: auto;
 }
+
 footer {
   background-color: #1b4332;
   color: #e9f5ec;
@@ -110,4 +111,7 @@ footer p:last-child {
   font-size: 1.4rem;
   margin-top: 1rem;
   color: #1b4332;
+}
+section {
+  margin-bottom: 0.75rem;
 }
