@@ -29,14 +29,14 @@
       <ul>
         <li><strong>988 Suicide & Crisis Lifeline:</strong> Call or text <a href="https://988lifeline.org/">988</a> anytime</li>
         <li><strong>Provider Support Line (by Physicians Anonymous):</strong> <a href="https://www.physiciansanonymous.org">physiciansanonymous.org</a></li>
-        <li><strong>National Rural Health Association Resources:</strong> <a href="https://www.ruralhealth.us/programs/focus-on-mental-health">ruralhealth.us</a></li>
+        <li><strong>National Rural Health Association Resources:</strong> <a href="https://www.ruralhealth.us">ruralhealth.us</a></li>
       </ul>
     </section>
     <section>
       <h2>🎓 Free CME Opportunities</h2>
       <ul>
         <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/communication/training.html">CDC Free CE/CME Courses</a></li>
-        <li><a href="https://ruralhealthinfo.org/resources">RHIhub Rural Health Resources & CME</a></li>
+        <li><a href="https://www.ruralhealth.us/events/continuing-education-credit">RHIhub Rural Health Continuing Education</a></li>
         <li><a href="https://echo.unm.edu/">Project ECHO – Free Specialty Learning for Rural Clinicians</a></li>
       </ul>
     </section>
@@ -44,5 +44,12 @@
 
   <div id="footer"></div>
   <script src="js/include.js"></script>
+  <script>
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+</script>
+
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body>
   <div id="header"></div>
 
-  <div class="main-content">
+  <main class="main-content">
     <div class="hero">
       <h1>Welcome to RuralRounds</h1>
       <p>Real tools, shared stories, and connection for rural healthcare professionals.</p>
@@ -23,9 +23,15 @@
         Whether you're working solo in a critical access ER or staffing a small-town clinic, this is your place.
       </p>
     </section>
-  </div>
+  </main>
 
   <div id="footer"></div>
   <script src="js/include.js"></script>
+  <script>
+    document.querySelectorAll('a[href^="http"]').forEach(link => {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  </script>
 </body>
 </html>
