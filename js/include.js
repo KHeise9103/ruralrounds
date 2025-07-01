@@ -14,3 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   include("includes/header.html", "header");
   include("includes/footer.html", "footer");
 });
+function toggleMenu() {
+  const navLinks = document.getElementById("nav-links");
+  navLinks.classList.toggle("active");
+}
