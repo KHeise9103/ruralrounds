@@ -105,3 +105,9 @@ footer p:last-child {
   font-size: 0.85rem;
   opacity: 0.8;
 }
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  color: #1b4332;
+}
